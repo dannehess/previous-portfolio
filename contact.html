@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link href="img/favicon.png" rel="icon" type="image/png">
+  <link rel="stylesheet" href="style.css">
+  <title>Daniel Hessling</title>
+</head>
+
+<body>
+  <div class="container">
+    <a href="index.html"><span id="name">DANIEL HESSLING</span></a>
+    <button class="accordion">&#9776;</button>
+    <div class="panel">
+      <ul>
+        <li><a href="index.html">ABOUT ME<img src="img/about.png"
+              alt="about"></a></li>
+        <li><a href="projects.html">MY PROJECTS<img
+              src="img/projects.png" alt="portfolio"></a></li>
+        <li><a href="contact.html">CONTACT ME<img
+              src="img/contact.png" alt="contact"></a></li>
+      </ul>
+    </div>
+    <section class="box d-none">
+      <img src="img/jag.jpg" class="mini-me" alt="jag">
+    </section>
+    <div class="left box">
+      <div id="me"><img src="img/dh-float.png" class="dh-float" alt="dh-float">
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">ABOUT ME<img src="img/about.png"
+                alt="about"></a></li>
+          <li><a href="projects.html">MY PROJECTS<img
+                src="img/projects.png" alt="portfolio"></a></li>
+          <li><a href="contact.html">CONTACT ME<img
+                src="img/contact.png" alt="contact"></a></li>
+        </ul>
+      </nav>
+    </div>
+    <main>
+      <section class="box">
+        <h2><span>CONTACT</span></h2>
+        <p>If you want to contact me, use the form down below or click <a
+            href="mailto:daniel@danielhessling.se">here</a>.</p>
+        <div class="mini-spacer"></div>
+        <p>
+          You can also get in touch with me at:
+          <div class="mini-spacer"></div>
+          <div class="mini-spacer"></div>
+          <div class="contact-span">
+            <a href="https://linkedin.com/in/danielhessling" target="_blank" class="contact-li">
+              <img src="img/blue-linkedin.png" class="social-media-icon"
+                alt="social-media-icon">LinkedIn</a>
+
+            <p>
+              <a href="https://www.facebook.com/daniel.hessling.1" target="_blank" class="contact-li">
+                <img src="img/blue-facebook.png" class="social-media-icon"
+                  alt="social-media-icon">Facebook</a>
+            </p>
+          </div>
+      </section>
+      <section class="box">
+        <form id="kontakt" name="kontakt" method="post" action="contactform.php">
+          <p class="label-p">Name:</p>
+
+          <input type="text" name="name" required>
+          <div class="mini-spacer"></div>
+          <p class="label-p">E-mail:</p>
+          <input type="text" name="email" required>
+          <div class="mini-spacer"></div>
+          <p class="label-p">Subject:</p>
+          <input type="text" name="subject" required>
+          <div class="mini-spacer"></div>
+          <p class="label-p">Message:</p>
+          <textarea name="message" required></textarea><br><br>
+          <input name="submit" type="submit" value="Send" id="submit_button">
+        </form>
+        <span id="success">Message sent!</span>
+      </section>
+      <section class="center">
+        <a href="https://linkedin.com/in/danielhessling" target="_blank">
+          <img src="img/linkedin.png" class="social-media-icon"
+            alt="social-media-icon"></a>
+        <a href="https://www.facebook.com/daniel.hessling.1" target="_blank">
+          <img src="img/facebook.png" class="social-media-icon"
+            alt="social-media-icon"></a>
+        <a href="https://www.instagram.com/dannehess/" target="_blank">
+          <img src="img/instagram.png" class="social-media-icon"
+            alt="social-media-icon"></a>
+                    <a href="https://twitter.com/dannehess" target="_blank">
+          <img src="img/twitter.png" class="social-media-icon"
+            alt="social-media-icon"></a>
+      </section>
+      <div class="copy">
+        <span id="copyright"></span>
+      </div>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
